@@ -16,6 +16,7 @@
 		F75E022917CB91BF00B386D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F75E022817CB91BF00B386D0 /* Default.png */; };
 		F75E022B17CB91BF00B386D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F75E022A17CB91BF00B386D0 /* Default@2x.png */; };
 		F75E022D17CB91BF00B386D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F75E022C17CB91BF00B386D0 /* Default-568h@2x.png */; };
+		F75E025E17CB9AAE00B386D0 /* aaaaa.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E025D17CB9AAE00B386D0 /* aaaaa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		F75E022817CB91BF00B386D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F75E022A17CB91BF00B386D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F75E022C17CB91BF00B386D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F75E025C17CB9AAE00B386D0 /* aaaaa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaaaa.h; sourceTree = "<group>"; };
+		F75E025D17CB9AAE00B386D0 /* aaaaa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaaaa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				F75E022517CB91BF00B386D0 /* AppDelegate.h */,
 				F75E022617CB91BF00B386D0 /* AppDelegate.m */,
 				F75E021D17CB91BF00B386D0 /* Supporting Files */,
+				F75E025C17CB9AAE00B386D0 /* aaaaa.h */,
+				F75E025D17CB9AAE00B386D0 /* aaaaa.m */,
 			);
 			path = dd;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				F75E022317CB91BF00B386D0 /* main.m in Sources */,
 				F75E022717CB91BF00B386D0 /* AppDelegate.m in Sources */,
+				F75E025E17CB9AAE00B386D0 /* aaaaa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,7 @@
 				F75E023217CB91BF00B386D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
