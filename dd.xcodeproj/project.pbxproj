@@ -17,6 +17,7 @@
 		F75E022B17CB91BF00B386D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F75E022A17CB91BF00B386D0 /* Default@2x.png */; };
 		F75E022D17CB91BF00B386D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F75E022C17CB91BF00B386D0 /* Default-568h@2x.png */; };
 		F75E025E17CB9AAE00B386D0 /* aaaaa.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E025D17CB9AAE00B386D0 /* aaaaa.m */; };
+		F7CD1E5C17CC495B00B9A906 /* homeViewControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CD1E5B17CC495B00B9A906 /* homeViewControlViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		F75E022C17CB91BF00B386D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F75E025C17CB9AAE00B386D0 /* aaaaa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaaaa.h; sourceTree = "<group>"; };
 		F75E025D17CB9AAE00B386D0 /* aaaaa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaaaa.m; sourceTree = "<group>"; };
+		F7CD1E5A17CC495B00B9A906 /* homeViewControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewControlViewController.h; sourceTree = "<group>"; };
+		F7CD1E5B17CC495B00B9A906 /* homeViewControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewControlViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				F75E022517CB91BF00B386D0 /* AppDelegate.h */,
 				F75E022617CB91BF00B386D0 /* AppDelegate.m */,
+				F7CD1E5A17CC495B00B9A906 /* homeViewControlViewController.h */,
+				F7CD1E5B17CC495B00B9A906 /* homeViewControlViewController.m */,
 				F75E021D17CB91BF00B386D0 /* Supporting Files */,
 				F75E025C17CB9AAE00B386D0 /* aaaaa.h */,
 				F75E025D17CB9AAE00B386D0 /* aaaaa.m */,
@@ -172,6 +177,7 @@
 				F75E022317CB91BF00B386D0 /* main.m in Sources */,
 				F75E022717CB91BF00B386D0 /* AppDelegate.m in Sources */,
 				F75E025E17CB9AAE00B386D0 /* aaaaa.m in Sources */,
+				F7CD1E5C17CC495B00B9A906 /* homeViewControlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

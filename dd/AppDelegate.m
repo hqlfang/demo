@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "homeViewControlViewController.h"
 
 @implementation AppDelegate
 
@@ -23,6 +24,11 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    
+    homeViewControlViewController * hvc = [[homeViewControlViewController alloc] init];
+    self.window.rootViewController = hvc;
+    [hvc release];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
